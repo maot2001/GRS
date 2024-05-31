@@ -135,3 +135,7 @@ for e in user_inter:
         print(f'{[i.id for i in ui]}')
         print()
 print()
+
+files = [f for f in os.listdir('models') if 'Inter' in f]
+for file in files:
+    os.remove(os.path.join('models', file))
