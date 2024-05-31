@@ -10,8 +10,8 @@ for file in files:
 
 mochila = models[models_index['Item']].Item(1, 'Mochila', 43)
 marco = models[models_index['User']].User(1, 'Marco', 22, 'male')
-belong = models[models_index['Belong']].Belong(marco, 'good', 10, item1=mochila)
-interaction = models[models_index['Interaction']].Interaction(marco, 'good', 10, '2020-12-16', item1=mochila)
+consumption = models[models_index['Consumption']].Consumption(marco, 'good', 10, item1=mochila)
+production = models[models_index['Production']].Production(marco, 'good', 10, '2020-12-16', item1=mochila)
 
 zapato = models[models_index['Item']].Item(2, 'Zapato', 30)
 count = mochila.create_inter()
