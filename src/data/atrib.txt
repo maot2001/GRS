@@ -1,0 +1,12 @@
+g-id - Group id
+p-id - Post id
+c-id - Comment id
+u-id - User id
+r-id - Answer id
+time-id - Time at which the post was made by a user
+name - Username
+msg - Comment message
+response - Reaction to the publication
+url - Link to the user's account in the group
+shares - Link to the post
+likes - Amount of reactions
